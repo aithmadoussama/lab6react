@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# React – TP Hooks Avancés (Niveau Débutant)
+## Description
+Ce projet est une application React regroupant plusieurs exemples pratiques pour découvrir et manipuler les Hooks avancés.
+Il illustre l’utilisation de useReducer, useRef, useEffect, useState et d’un Hook personnalisé useFetch.
+L’objectif est de fournir une base pédagogique claire pour les débutants souhaitant comprendre la puissance des Hooks dans React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Structure du projet
+````
 
-## Available Scripts
+TP-Hooks-Avancés/
+├── src/
+│   ├── App.js
+│   ├── Compteur.js
+│   ├── FocusInput.js
+│   ├── CompteurRendu.js
+│   ├── ListeArticles.js
+│   ├── Timer.js
+│   ├── useFetch.js
+│   └── App.css
+└── public/
 
-In the project directory, you can run:
+``` 
+## Fonctionnalités
+🔢 Compteur avec useReducer
+Gestion d’état via un reducer et des actions.
+Actions disponibles : increment, decrement, reset.
+🎯 FocusInput avec useRef
+Utilisation de useRef pour cibler un champ input.
+Bouton permettant de mettre le focus automatiquement.
+🔄 Compteur de rendus
+Utilisation combinée de useRef et useEffect pour compter le nombre de rendus du composant.
+Résultat affiché dans la console.
+📑 Liste d’articles avec useFetch
+Hook personnalisé useFetch pour récupérer des données depuis une API.
+Gestion des états : chargement, erreur, données.
+⏱️ Timer avec nettoyage d’effet
+Utilisation de useState et useEffect pour créer un timer.
+Mise à jour de l’heure en temps réel.
+Nettoyage automatique de l’intervalle pour éviter les fuites mémoire.
+🎨 Interface
+Design simple et épuré avec App.css.
+Mise en page centrée et responsive.
+Boutons stylisés avec hover et couleurs distinctes (notamment pour le bouton Reset).
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Exemple d’exécution
