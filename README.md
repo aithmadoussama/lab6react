@@ -2,7 +2,7 @@
 ## Description
 Ce projet est une application React regroupant plusieurs exemples pratiques pour découvrir et manipuler les Hooks avancés.
 Il illustre l’utilisation de useReducer, useRef, useEffect, useState et d’un Hook personnalisé useFetch.
-L’objectif est de fournir une base pédagogique claire pour les débutants souhaitant comprendre la puissance des Hooks dans React.
+L’objectif est de fournir une base pédagogique claire pour les débutants souhaitant comprendre la puissance des Hooks dans React. 
 
 ## Structure du projet
 
